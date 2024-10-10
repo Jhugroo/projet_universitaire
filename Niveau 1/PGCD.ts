@@ -13,4 +13,3 @@ let m: number = Number(readlineSync.question('Entrez m: '));
 
 const result = pgcd(n, m);
 console.log(`Le PGCD de ${n} et ${m} est : ${result}`);
-
