@@ -1,7 +1,11 @@
 import * as readlineSync from 'readline-sync';
 
 function max_nb(a: number, b: number): number {
-  return a > b ? a : b;
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
 }
 let a1: number = Number(readlineSync.question("Entrez nb a:"));
 let b1: number = Number(readlineSync.question("Entrez nb b:"));
