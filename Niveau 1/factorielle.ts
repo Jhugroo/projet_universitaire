@@ -5,5 +5,5 @@ function trouverFactorielle(num: number): number {
   return num * trouverFactorielle(num - 1);
 }
 
-let factorielleResult: number = Number(readlineSync.question("Entrez un nombre pour trouver sa factorielle: "));
-console.log(`La factorielle de ${factorielleResult} est: ${trouverFactorielle(factorielleResult)}`);
+let factorielleResult: number = Number(readlineSync.question("Entrez un nombre: "));
+console.log(`La factorielle ${factorielleResult} est: ${trouverFactorielle(factorielleResult)}`);
